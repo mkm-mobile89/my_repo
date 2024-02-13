@@ -1,0 +1,31 @@
+# Clone the repository
+git clone https://github.com/mkm-mobile89/my_repo.git
+cd my_repo
+
+# Create branches for your issues
+git checkout -b issue1
+# Implement changes, commit, and push
+git add .
+git commit -m "Fix issue 1: Improve method X"
+git push origin issue1
+
+# Create a PR on GitHub and merge it
+# Close issue 1 on GitHub once PR is merged
+
+# Repeat the process for issue 2
+git checkout -b issue2
+# Implement changes, commit, and push
+git add .
+git commit -m "Fix issue 2: Rename variable Y"
+git push origin issue2
+
+# Create a PR on GitHub and merge it
+# Close issue 2 on GitHub once PR is merged
+
+# Create repo.txt with your repo link
+echo "https://github.com/mkm-mobile89/my_repo" > repo.txt
+
+# Add repo.txt to your task folder and commit
+git add repo.txt
+git commit -m "Add repo.txt"
+git push origin main
